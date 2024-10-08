@@ -1,0 +1,131 @@
+body {
+    text-align: center;
+}
+.top {
+    background-color: #BCF2F6;
+    height: 90vh;
+    margin: none;
+}
+div {
+    display: block;
+}
+h1 {
+    color: #F6C0BC;
+    padding-top: 230px;
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #F6C0BC;
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.para{
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 200px;
+}
+
+.left {
+    text-align: left;
+}
+h4 {
+    padding-bottom: 20px;
+    font-family: "Afacad Flux", sans-serif;
+    color: #F6C0BC;
+}
+.lets {
+    padding-bottom: 20px;
+}
+.cloud1 {
+    position: absolute;
+    right: 500px;
+    top: 50px;
+}
+
+.cloud2 {
+    position: absolute;
+    left: 400px;
+    top: 350px;
+}
+.btn {
+    margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    height: 50px;
+    width: 150px;
+    background-color: #3edae6 ;
+    color: white;
+    border: none;
+    border-radius: 30%;
+    text-transform: capitalize;
+}
+.grid {
+   display: grid;
+  grid-template-columns: repeat(2, 400px);
+   grid-template-rows: repeat(1, 1fr);
+   margin: 200px auto 0 auto;
+  justify-content: center;
+  row-gap: 20px;
+  column-gap: 50px;
+}
+
+.f1 {
+    padding-bottom: 50px;
+}
+.f2 {
+    padding-bottom: 50px;
+}
+.f3{
+    padding-bottom: 50px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #BCF2F6;
+    height: 100px;
+}
+a {
+    color: #F6C0BC ;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.contact {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+@media (max-width: 900px) {
+    h1 {
+       font-size: 50px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+  .cloud1, .cloud2 {
+    display: none;
+  }
+  .top {
+    height: 800px;
+  }
+  .grid {
+    display: block;
+  }
+  p {
+    margin: 20px;
+  }
+}
